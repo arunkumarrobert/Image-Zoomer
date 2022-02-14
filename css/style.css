@@ -1,0 +1,59 @@
+.image-container {
+    /* Center the image */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Misc */
+    border: 1px solid #cbd5e0;
+    overflow: hidden;
+    width: 100%;
+}
+.range-wrapper {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Misc */
+    padding-top: 2rem;
+}
+.range-container {
+    /* Content is centered horizontally */
+    align-items: center;
+    display: flex;
+
+    /* Size */
+    height: 1.5rem;
+    width: 16rem;
+
+    /* Misc */
+    margin: 0 0.25rem;
+}
+.left {
+    /* Width based on the current value */
+    height: 2px;
+
+    /* Colors */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.knob {
+    /* Size */
+    height: 1.5rem;
+    width: 1.5rem;
+
+    /* Rounded border */
+    border-radius: 9999px;
+
+    /* Colors */
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.right {
+    /* Take the remaining width */
+    flex: 1;
+    height: 2px;
+
+    /* Colors */
+    background-color: rgba(0, 0, 0, 0.3);
+}
